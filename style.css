@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
+#weatherApp {
+  background-color: rgb(57, 57, 59);
+  width: 400px;
+  height: 250px;
+  border: 2px solid greenyellow;
+  border-radius: 7px;
+  /* margin-top: 50px;
+  padding: 5px; */
+
+  text-align: center;
+}
+#WeatherApp {
+  box-sizing: border-box;
+}
+#inputField {
+  background-color: rgb(49, 63, 44);
+  border: 3px solid green;
+  border-radius: 7px;
+  margin-top: 10px;
+  padding: 10px;
+}
+#inputField {
+  width: 180px;
+  box-sizing: border-box;
+}
+#inputField:hover {
+  background-color: aliceblue;
+}
+
+#displayField {
+  background-color: rgb(0, 56, 90);
+  border: 3px solid green;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 10px;
+  color: rgb(22, 163, 170);
+  width: 300px;
+}
+
+#checkBtn {
+  background-color: blue;
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 10px;
+}
+h1 {
+  background-color: rgb(36, 45, 32);
+  color: rgb(192, 189, 189);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  position: absolute;
+  top: 90px;
+}
